@@ -48,7 +48,7 @@ function reduceToAllTrue(arr) {
   return true
 }
 
-function reduceToAnyTrue(src) {
+function reduceToAnyTrue(arr) {
   for (let i = 0; i < arr.length; i++ ) {
     if (arr[i]) return true
   }
